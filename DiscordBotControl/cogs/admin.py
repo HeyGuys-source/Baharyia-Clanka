@@ -58,7 +58,7 @@ class AdminCog(commands.Cog, name="Administration"):
             return
         
         try:
-            # Handle reply functionality
+                      # Handle reply functionality
             reference_message = None
             if reply_to:
                 try:
@@ -68,7 +68,8 @@ class AdminCog(commands.Cog, name="Administration"):
                     await interaction.response.send_message("❌ Invalid message ID provided for reply.", ephemeral=True)
                     return
             
-            await interaction.response.defer(ephemeral=ephemeral)
+            # Send ephemeral confirmation to user
+            await interaction.response.send_message("✅ Echo sent!", ephemeral=True)
             
             if format_type == "embed":
                 embed = BotHelpers.create_embed(
@@ -76,17 +77,11 @@ class AdminCog(commands.Cog, name="Administration"):
                     message,
                     "primary"
                 )
-                embed.set_footer(text=f"Sent by {interaction.user}")
+                # Removed the footer that shows who sent it
                 
-                await interaction.followup.send(
-                    embed=embed,
-                    ephemeral=ephemeral
-                )
+                await interaction.channel.send(embed=embed)
             else:
-                await interaction.followup.send(
-                    message,
-                    ephemeral=ephemeral
-                )
+                await interaction.channel.send(message)
             
             await log_command_usage(interaction, "echo", True)
             
@@ -97,7 +92,7 @@ class AdminCog(commands.Cog, name="Administration"):
                 f"Failed to execute echo command: {str(e)}",
                 "error"
             )
-            await interaction.followup.send(embed=error_embed, ephemeral=True)
+            await interaction.response.send_message(embed=error_embed, ephemeral=True)
     
     @app_commands.command(name="server_icon", description="Get the server's icon")
     async def server_icon(self, interaction: discord.Interaction):
