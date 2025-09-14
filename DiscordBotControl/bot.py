@@ -58,7 +58,7 @@ class AdvancedBot(commands.Bot):
         self.command_stats = {}
         
         # Initialize web server port
-        self.port = self.server_config.get("port", 3001)
+        self.port = int(os.environ.get("PORT", self.server_config.get("port", 3001)))
         
         log.info("AdvancedBot initialized with comprehensive features")
     
