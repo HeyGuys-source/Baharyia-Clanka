@@ -80,13 +80,11 @@ class AdminCog(commands.Cog, name="Administration"):
                 
                 await interaction.followup.send(
                     embed=embed,
-                    reference=reference_message,
                     ephemeral=ephemeral
                 )
             else:
                 await interaction.followup.send(
                     message,
-                    reference=reference_message,
                     ephemeral=ephemeral
                 )
             
@@ -186,7 +184,6 @@ class AdminCog(commands.Cog, name="Administration"):
         
         await interaction.response.send_message(embed=embed, ephemeral=True)
         await log_command_usage(interaction, "list_cogs", True)
-    
     # ======== MODERATION COMMANDS ========
     
     @app_commands.command(name="ban", description="Ban a user from the server")
