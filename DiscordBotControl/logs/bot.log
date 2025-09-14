@@ -1,0 +1,115 @@
+2025-09-14 16:41:07 | INFO     | __main__:__init__:63 | AdvancedBot initialized with comprehensive features
+2025-09-14 16:41:07 | INFO     | __main__:main:289 | Starting bot...
+2025-09-14 16:41:07 | INFO     | __main__:setup_hook:98 | Setting up bot...
+2025-09-14 16:41:07 | INFO     | __main__:_load_all_cogs:130 | Loading 3 cogs...
+2025-09-14 16:41:07 | ERROR    | __main__:_load_all_cogs:138 | Failed to load cog cogs.admin: Extension 'cogs.admin' raised an error: TypeError: Commands or listeners must not start with cog_ or bot_ (in method AdminCog.cog_list)
+2025-09-14 16:41:07 | INFO     | cogs.moderation:setup:160 | ModerationCog loaded successfully
+2025-09-14 16:41:07 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.moderation
+2025-09-14 16:41:07 | INFO     | cogs.utility:setup:213 | UtilityCog loaded successfully
+2025-09-14 16:41:07 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.utility
+2025-09-14 16:41:07 | WARNING  | __main__:_load_all_cogs:142 | 1 cog(s) failed to load
+2025-09-14 16:41:07 | INFO     | __main__:setup_hook:114 | Syncing application commands...
+2025-09-14 16:41:08 | SUCCESS  | __main__:setup_hook:116 | Synced 8 command(s)
+2025-09-14 16:41:08 | SUCCESS  | __main__:setup_hook:120 | Bot setup completed successfully!
+2025-09-14 16:41:10 | SUCCESS  | __main__:on_ready:148 | Bot is ready!
+2025-09-14 16:41:10 | INFO     | __main__:on_ready:149 | Logged in as: Bahariya Clanka#9286 (ID: 1416776407178018957)
+2025-09-14 16:41:10 | INFO     | __main__:on_ready:150 | Connected to 1 guild(s)
+2025-09-14 16:41:10 | INFO     | __main__:on_ready:151 | Serving 9 users
+2025-09-14 16:41:10 | WARNING  | __main__:on_ready:155 | Cog loading errors:
+2025-09-14 16:41:10 | WARNING  | __main__:on_ready:157 |   - Failed to load cog cogs.admin: Extension 'cogs.admin' raised an error: TypeError: Commands or listeners must not start with cog_ or bot_ (in method AdminCog.cog_list)
+2025-09-14 16:41:23 | INFO     | __main__:__init__:63 | AdvancedBot initialized with comprehensive features
+2025-09-14 16:41:23 | INFO     | __main__:main:289 | Starting bot...
+2025-09-14 16:41:23 | INFO     | __main__:setup_hook:98 | Setting up bot...
+2025-09-14 16:41:23 | INFO     | __main__:_load_all_cogs:130 | Loading 3 cogs...
+2025-09-14 16:41:23 | INFO     | cogs.admin:setup:437 | AdminCog loaded successfully
+2025-09-14 16:41:23 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.admin
+2025-09-14 16:41:23 | INFO     | cogs.moderation:setup:160 | ModerationCog loaded successfully
+2025-09-14 16:41:23 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.moderation
+2025-09-14 16:41:23 | INFO     | cogs.utility:setup:213 | UtilityCog loaded successfully
+2025-09-14 16:41:23 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.utility
+2025-09-14 16:41:23 | SUCCESS  | __main__:_load_all_cogs:144 | All cogs loaded successfully!
+2025-09-14 16:41:23 | INFO     | __main__:setup_hook:114 | Syncing application commands...
+2025-09-14 16:42:08 | SUCCESS  | __main__:setup_hook:116 | Synced 19 command(s)
+2025-09-14 16:42:08 | SUCCESS  | __main__:setup_hook:120 | Bot setup completed successfully!
+2025-09-14 16:42:10 | SUCCESS  | __main__:on_ready:148 | Bot is ready!
+2025-09-14 16:42:10 | INFO     | __main__:on_ready:149 | Logged in as: Bahariya Clanka#9286 (ID: 1416776407178018957)
+2025-09-14 16:42:10 | INFO     | __main__:on_ready:150 | Connected to 1 guild(s)
+2025-09-14 16:42:10 | INFO     | __main__:on_ready:151 | Serving 9 users
+2025-09-14 16:43:08 | INFO     | utils.permissions:log_command_usage:194 | Command list_cogs executed by emz9ine (1150880991485886504) in Bot testing. (1274134227167740056) - SUCCESS
+2025-09-14 16:43:35 | INFO     | utils.permissions:log_command_usage:194 | Command embed_creator executed by emz9ine (1150880991485886504) in Bot testing. (1274134227167740056) - SUCCESS
+2025-09-14 16:46:30 | INFO     | __main__:on_guild_join:161 | Joined new guild: Cradles of Bahariya (ID: 1415360222951903254)
+2025-09-14 16:46:30 | INFO     | __main__:on_guild_join:162 | Guild has 5 members
+2025-09-14 16:47:14 | ERROR    | cogs.admin:echo:96 | Echo command error: Webhook.send() got an unexpected keyword argument 'reference'
+2025-09-14 16:47:30 | ERROR    | cogs.admin:echo:96 | Echo command error: Webhook.send() got an unexpected keyword argument 'reference'
+2025-09-14 16:48:14 | INFO     | __main__:__init__:63 | AdvancedBot initialized with comprehensive features
+2025-09-14 16:48:14 | INFO     | __main__:main:289 | Starting bot...
+2025-09-14 16:48:14 | INFO     | __main__:setup_hook:98 | Setting up bot...
+2025-09-14 16:48:14 | INFO     | __main__:_load_all_cogs:130 | Loading 5 cogs...
+2025-09-14 16:48:14 | INFO     | cogs.admin:setup:740 | AdminCog loaded successfully
+2025-09-14 16:48:14 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.admin
+2025-09-14 16:48:14 | INFO     | cogs.moderation:setup:160 | ModerationCog loaded successfully
+2025-09-14 16:48:14 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.moderation
+2025-09-14 16:48:14 | INFO     | cogs.utility:setup:213 | UtilityCog loaded successfully
+2025-09-14 16:48:14 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.utility
+2025-09-14 16:48:14 | INFO     | cogs.advanced_admin:setup:366 | AdvancedAdminCog loaded successfully
+2025-09-14 16:48:14 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.advanced_admin
+2025-09-14 16:48:14 | ERROR    | __main__:_load_all_cogs:138 | Failed to load cog cogs.system_admin: Extension 'cogs.system_admin' raised an error: TypeError: Commands or listeners must not start with cog_ or bot_ (in method SystemAdminCog.bot_info)
+2025-09-14 16:48:14 | WARNING  | __main__:_load_all_cogs:142 | 1 cog(s) failed to load
+2025-09-14 16:48:14 | INFO     | __main__:setup_hook:114 | Syncing application commands...
+2025-09-14 16:48:15 | SUCCESS  | __main__:setup_hook:116 | Synced 36 command(s)
+2025-09-14 16:48:15 | SUCCESS  | __main__:setup_hook:120 | Bot setup completed successfully!
+2025-09-14 16:48:17 | SUCCESS  | __main__:on_ready:148 | Bot is ready!
+2025-09-14 16:48:17 | INFO     | __main__:on_ready:149 | Logged in as: Bahariya Clanka#9286 (ID: 1416776407178018957)
+2025-09-14 16:48:17 | INFO     | __main__:on_ready:150 | Connected to 2 guild(s)
+2025-09-14 16:48:17 | INFO     | __main__:on_ready:151 | Serving 14 users
+2025-09-14 16:48:17 | WARNING  | __main__:on_ready:155 | Cog loading errors:
+2025-09-14 16:48:17 | WARNING  | __main__:on_ready:157 |   - Failed to load cog cogs.system_admin: Extension 'cogs.system_admin' raised an error: TypeError: Commands or listeners must not start with cog_ or bot_ (in method SystemAdminCog.bot_info)
+2025-09-14 16:48:27 | INFO     | __main__:__init__:63 | AdvancedBot initialized with comprehensive features
+2025-09-14 16:48:27 | INFO     | __main__:main:289 | Starting bot...
+2025-09-14 16:48:27 | INFO     | __main__:setup_hook:98 | Setting up bot...
+2025-09-14 16:48:27 | INFO     | __main__:_load_all_cogs:130 | Loading 5 cogs...
+2025-09-14 16:48:27 | INFO     | cogs.admin:setup:740 | AdminCog loaded successfully
+2025-09-14 16:48:27 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.admin
+2025-09-14 16:48:27 | INFO     | cogs.moderation:setup:160 | ModerationCog loaded successfully
+2025-09-14 16:48:27 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.moderation
+2025-09-14 16:48:27 | INFO     | cogs.utility:setup:213 | UtilityCog loaded successfully
+2025-09-14 16:48:27 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.utility
+2025-09-14 16:48:27 | INFO     | cogs.advanced_admin:setup:366 | AdvancedAdminCog loaded successfully
+2025-09-14 16:48:27 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.advanced_admin
+2025-09-14 16:48:27 | INFO     | cogs.system_admin:setup:316 | SystemAdminCog loaded successfully
+2025-09-14 16:48:27 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.system_admin
+2025-09-14 16:48:27 | SUCCESS  | __main__:_load_all_cogs:144 | All cogs loaded successfully!
+2025-09-14 16:48:27 | INFO     | __main__:setup_hook:114 | Syncing application commands...
+2025-09-14 16:49:14 | SUCCESS  | __main__:setup_hook:116 | Synced 44 command(s)
+2025-09-14 16:49:14 | SUCCESS  | __main__:setup_hook:120 | Bot setup completed successfully!
+2025-09-14 16:49:17 | SUCCESS  | __main__:on_ready:148 | Bot is ready!
+2025-09-14 16:49:17 | INFO     | __main__:on_ready:149 | Logged in as: Bahariya Clanka#9286 (ID: 1416776407178018957)
+2025-09-14 16:49:17 | INFO     | __main__:on_ready:150 | Connected to 2 guild(s)
+2025-09-14 16:49:17 | INFO     | __main__:on_ready:151 | Serving 14 users
+2025-09-14 16:51:17 | ERROR    | cogs.admin:echo:96 | Echo command error: Webhook.send() got an unexpected keyword argument 'reference'
+2025-09-14 16:51:38 | INFO     | __main__:__init__:63 | AdvancedBot initialized with comprehensive features
+2025-09-14 16:51:38 | INFO     | __main__:main:289 | Starting bot...
+2025-09-14 16:51:38 | INFO     | __main__:setup_hook:98 | Setting up bot...
+2025-09-14 16:51:38 | INFO     | __main__:_load_all_cogs:130 | Loading 5 cogs...
+2025-09-14 16:51:38 | INFO     | cogs.admin:setup:740 | AdminCog loaded successfully
+2025-09-14 16:51:38 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.admin
+2025-09-14 16:51:38 | INFO     | cogs.moderation:setup:160 | ModerationCog loaded successfully
+2025-09-14 16:51:38 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.moderation
+2025-09-14 16:51:38 | INFO     | cogs.utility:setup:213 | UtilityCog loaded successfully
+2025-09-14 16:51:38 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.utility
+2025-09-14 16:51:38 | INFO     | cogs.advanced_admin:setup:366 | AdvancedAdminCog loaded successfully
+2025-09-14 16:51:38 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.advanced_admin
+2025-09-14 16:51:38 | INFO     | cogs.system_admin:setup:316 | SystemAdminCog loaded successfully
+2025-09-14 16:51:38 | SUCCESS  | __main__:_load_all_cogs:135 | Loaded cog: cogs.system_admin
+2025-09-14 16:51:38 | SUCCESS  | __main__:_load_all_cogs:144 | All cogs loaded successfully!
+2025-09-14 16:51:38 | INFO     | __main__:setup_hook:114 | Syncing application commands...
+2025-09-14 16:51:38 | SUCCESS  | __main__:setup_hook:116 | Synced 44 command(s)
+2025-09-14 16:51:38 | SUCCESS  | __main__:setup_hook:120 | Bot setup completed successfully!
+2025-09-14 16:51:41 | SUCCESS  | __main__:on_ready:148 | Bot is ready!
+2025-09-14 16:51:41 | INFO     | __main__:on_ready:149 | Logged in as: Bahariya Clanka#9286 (ID: 1416776407178018957)
+2025-09-14 16:51:41 | INFO     | __main__:on_ready:150 | Connected to 2 guild(s)
+2025-09-14 16:51:41 | INFO     | __main__:on_ready:151 | Serving 14 users
+2025-09-14 16:52:34 | INFO     | utils.permissions:log_command_usage:194 | Command pin executed by emz9ine (1150880991485886504) in Cradles of Bahariya (1415360222951903254) - SUCCESS
+2025-09-14 16:53:15 | INFO     | utils.permissions:log_command_usage:194 | Command command_list executed by emz9ine (1150880991485886504) in Cradles of Bahariya (1415360222951903254) - SUCCESS
+2025-09-14 16:53:29 | ERROR    | cogs.admin:echo:96 | Echo command error: Webhook.send() got an unexpected keyword argument 'reference'
+2025-09-14 16:53:50 | ERROR    | cogs.admin:echo:96 | Echo command error: Webhook.send() got an unexpected keyword argument 'reference'

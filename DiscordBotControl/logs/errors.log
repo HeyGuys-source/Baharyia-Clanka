@@ -1,0 +1,14 @@
+2025-09-14 16:41:07 | ERROR    | __main__:_load_all_cogs:138 | Failed to load cog cogs.admin: Extension 'cogs.admin' raised an error: TypeError: Commands or listeners must not start with cog_ or bot_ (in method AdminCog.cog_list)
+
+2025-09-14 16:47:14 | ERROR    | cogs.admin:echo:96 | Echo command error: Webhook.send() got an unexpected keyword argument 'reference'
+
+2025-09-14 16:47:30 | ERROR    | cogs.admin:echo:96 | Echo command error: Webhook.send() got an unexpected keyword argument 'reference'
+
+2025-09-14 16:48:14 | ERROR    | __main__:_load_all_cogs:138 | Failed to load cog cogs.system_admin: Extension 'cogs.system_admin' raised an error: TypeError: Commands or listeners must not start with cog_ or bot_ (in method SystemAdminCog.bot_info)
+
+2025-09-14 16:51:17 | ERROR    | cogs.admin:echo:96 | Echo command error: Webhook.send() got an unexpected keyword argument 'reference'
+
+2025-09-14 16:53:29 | ERROR    | cogs.admin:echo:96 | Echo command error: Webhook.send() got an unexpected keyword argument 'reference'
+
+2025-09-14 16:53:50 | ERROR    | cogs.admin:echo:96 | Echo command error: Webhook.send() got an unexpected keyword argument 'reference'
+
