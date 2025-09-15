@@ -125,8 +125,6 @@ class AdvancedBot(commands.Bot):
     async def _load_all_cogs(self):
         """Load all configured cogs"""
         autoload_cogs = settings.get("cogs.autoload", [
-            "cogs.admin",
-            "cogs.moderation",
             "cogs.utility",
             "cogs.automod_call",
             "cogs.automod",
