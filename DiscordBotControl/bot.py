@@ -124,7 +124,17 @@ class AdvancedBot(commands.Bot):
         autoload_cogs = settings.get("cogs.autoload", [
             "cogs.admin",
             "cogs.moderation",
-            "cogs.utility"
+            "cogs.utility",
+            "cogs.automod_call",
+            "cogs.automod",
+            "cogs.echo",
+            "cogs.emojo_paster",
+            "cogs.keepalive",
+            "cogs.lockdown",
+            "cogs.port3001",
+            "cogs.trigger_system",
+            "cogs.vclockdown",
+            "cogs.welcome_goodbye.py"
         ])
         
         log.info(f"Loading {len(autoload_cogs)} cogs...")
