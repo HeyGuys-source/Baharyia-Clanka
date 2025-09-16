@@ -15,6 +15,10 @@ import json
 import os
 import logging
 
+from utils.permissions import require_admin_role, log_command_usage
+from utils.helpers import BotHelpers
+from utils.logging_setup import get_logger
+
 class VCLockdown(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
