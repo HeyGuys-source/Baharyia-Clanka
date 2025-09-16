@@ -46,6 +46,9 @@ class EchoCog(commands.Cog):
                 ephemeral=True
             )
         
+        # Defer the response to prevent timeout and ensure proper handling
+        await interaction.response.defer(ephemeral=True)
+        
         # Set target channel
         target_channel = channel or interaction.channel
         
@@ -57,7 +60,7 @@ class EchoCog(commands.Cog):
                     reply_message = await target_channel.fetch_message(int(reply_to_id))
                     reference = reply_message
                 except (discord.NotFound, ValueError):
-                    return await interaction.response.send_message(
+                    return await interaction.followup.send(
                         embed=self.create_embed("❌ Error", "Could not find message with that ID to reply to.", 0xff0000),
                         ephemeral=True
                     )
@@ -107,7 +110,7 @@ class EchoCog(commands.Cog):
                 # Plain text message
                 sent_message = await target_channel.send(message, reference=reference)
             
-            # Confirmation message
+            # Send confirmation message (ephemeral - only visible to command user)
             confirmation_embed = self.create_embed(
                 "✅ Message Sent Successfully",
                 f"**Channel:** {target_channel.mention}\n"
@@ -117,9 +120,9 @@ class EchoCog(commands.Cog):
                 0x2ecc71
             )
             
-            await interaction.response.send_message(embed=confirmation_embed, ephemeral=True)
+            await interaction.followup.send(embed=confirmation_embed, ephemeral=True)
             
-            # Log the action
+            # Log the action (only to log channel, not the target channel)
             try:
                 if self.bot.db_pool:
                     async with self.bot.db_pool.acquire() as conn:
@@ -145,12 +148,12 @@ class EchoCog(commands.Cog):
                 logger.error(f"Failed to log echo action: {e}")
                 
         except discord.Forbidden:
-            await interaction.response.send_message(
+            await interaction.followup.send(
                 embed=self.create_embed("❌ Permission Error", "I don't have permission to send messages in that channel.", 0xff0000),
                 ephemeral=True
             )
         except Exception as e:
-            await interaction.response.send_message(
+            await interaction.followup.send(
                 embed=self.create_embed("❌ Error", f"Failed to send message: {str(e)}", 0xff0000),
                 ephemeral=True
             )
