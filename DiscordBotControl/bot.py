@@ -68,8 +68,8 @@ class AdvancedBot(commands.Bot):
     def _get_activity(self) -> Optional[discord.Activity]:
         """Get bot activity from configuration"""
         activity_config = settings.get("bot.activity", {})
-        activity_type = activity_config.get("type", "playing")
-        activity_name = activity_config.get("name", "Advanced Admin Commands")
+        activity_type = activity_config.get("type", "streaming")
+        activity_name = activity_config.get("name", "Magster's kidnapping tape")
         
         type_mapping = {
             "playing": discord.ActivityType.playing,
@@ -125,7 +125,6 @@ class AdvancedBot(commands.Bot):
     async def _load_all_cogs(self):
         """Load all configured cogs"""
         autoload_cogs = settings.get("cogs.autoload", [
-            "cogs.utility",
             "cogs.automod_call",
             "cogs.automod",
             "cogs.echo",
