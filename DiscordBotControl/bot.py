@@ -134,7 +134,7 @@ class AdvancedBot(commands.Bot):
             "cogs.port3001",
             "cogs.trigger_system",
             "cogs.vclockdown",
-            "cogs.welcome_goodbye.py"
+            "cogs.welcome_goodbye"
         ])
         
         log.info(f"Loading {len(autoload_cogs)} cogs...")
@@ -153,6 +153,13 @@ class AdvancedBot(commands.Bot):
         else:
             log.success("All cogs loaded successfully!")
     
+    try: 
+        await self.tree.clear_commands()  # clears old leftover commands
+        await self.tree.sync()            # syncs only currently loaded commands
+        log.success("Command tree cleared and synced!")
+    except Exception as e:
+        log.error(f"Failed to clear/sync command tree: {e}")
+        
     async def on_ready(self):
         """Called when bot is ready"""
         log.success(f"Bot is ready!")
