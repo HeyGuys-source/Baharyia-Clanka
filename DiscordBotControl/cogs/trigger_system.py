@@ -15,6 +15,10 @@ import re
 import logging
 from typing import Dict, List
 
+from utils.permissions import require_admin_role, log_command_usage
+from utils.helpers import BotHelpers
+from utils.logging_setup import get_logger
+
 class TriggerSystem(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
