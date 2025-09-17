@@ -107,7 +107,8 @@ class AdvancedModerationBot(commands.Bot):
                 'cogs.moderation',
                 'cogs.administration', 
                 'cogs.echo',
-                'cogs.utility'
+                'cogs.utility',
+                'cogs.forum_reactions'
             ]
             
             for cog in cogs_to_load:
