@@ -108,7 +108,9 @@ class AdvancedModerationBot(commands.Bot):
                 'cogs.administration', 
                 'cogs.echo',
                 'cogs.utility',
-                'cogs.forum_reactions'
+                'cogs.forum_reactions',
+                'cogs.reconnection_cog'
+                y
             ]
             
             for cog in cogs_to_load:
